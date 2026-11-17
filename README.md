@@ -155,11 +155,11 @@ A Laravel 13 College & Higher-Education Management System demonstrating recruitm
    DB_PASSWORD=
    ```
 
-4. **Run Migrations:**
+4. **Run Migrations**:
    ```bash
-   php artisan migrate:fresh --seed
+   php artisan migrate:fresh
    ```
-   _(Note: Seed data in public edition is limited to core demonstration records)_
+   _(Note: Seed data is intentionally excluded from the public portfolio edition to keep focus on code architecture. The private full edition includes all seed data.)_
 
 5. **Install Node.js dependencies:**
    ```bash
