@@ -66,12 +66,12 @@
         </div>
 
         <div class="bg-slate-50 p-4 rounded-lg border border-slate-200">
-            <h3 class="text-sm font-semibold text-slate-800 mb-3">Aadhaar Details (Optional, with Consent)</h3>
+            <h3 class="text-sm font-semibold text-slate-800 mb-3">Alternative ID (Optional)</h3>
             <div class="grid md:grid-cols-2 gap-4 items-center">
-                <input type="text" name="aadhaar_number" maxlength="12" placeholder="12-digit Aadhaar Number (Optional)" class="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm bg-white">
+                <input type="text" name="alternative_id" maxlength="50" placeholder="Optional: School ID / Other Identification" class="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm bg-white">
                 <label class="flex items-center gap-2 text-xs text-slate-600">
-                    <input type="checkbox" name="aadhaar_consent" value="1" class="rounded border-slate-300">
-                    I voluntarily consent to share Aadhaar for student verification.
+                    <input type="checkbox" name="id_consent" value="1" class="rounded border-slate-300">
+                    I consent to share alternative ID for student verification.
                 </label>
             </div>
         </div>
