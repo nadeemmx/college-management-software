@@ -1,0 +1,67 @@
+# See https://github.com/github/gitignore/blob/main/Laravel.gitignore
+# Laravel specific
+/vendor
+/.env
+/.env.backup
+/.env.production
+/.env.example
+/phpunit.result.cache
+/app/.phpunit cache/
+/*.phpunit-result.cache
+/.scrutinizer.yml
+/.idea
+/.nova
+/.vscode
+/.gitattributes
+/homestead
+/.template
+
+# Laravel production and deployment
+/hot
+/build
+
+# Pulse and Telescope
+/pulse
+/telescope
+
+# Node modules
+/node_modules
+
+# Vite specific
+/public/build
+/public/hot
+/public/fonts-manifest.dev.json
+/public/vite.svg
+
+# Tailwind
+/tailwindcss
+/resources/tailwind.css
+
+# Debugbar
+/debugbar
+
+# LESS/SASS generated stuff
+/.css
+/.js
+
+# Storage
+/storage/app/*
+/storage/framework/*
+/storage/logs/*
+
+# IDE specific
+/.phpstorm/
+/.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# AWS
+/.aws
+
+# Backup files
+/*.bak
+*.backup
